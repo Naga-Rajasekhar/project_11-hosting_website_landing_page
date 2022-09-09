@@ -351,3 +351,204 @@ li {
 .icons p a {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  nav ul li:nth-child(1) {
+    display: none;
+  }
+  nav ul li:nth-child(2) {
+    display: none;
+  }
+  nav ul li:nth-child(3) {
+    display: none;
+  }
+  nav ul li:nth-child(4) {
+    display: none;
+  }
+  nav ul li:nth-child(5) {
+    display: none;
+  }
+  nav ul li:nth-child(6) {
+    display: none;
+  }
+
+  .register-new {
+    margin-left: -10rem;
+    width: 10rem;
+  }
+
+  .navbar .logo img {
+    width: 60px;
+  }
+
+  .content-hosting {
+    width: 25rem;
+  }
+
+  .main-content-hosting {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .description-hosting {
+    text-align: center;
+  }
+
+  .choose-package {
+    margin-left: 5rem;
+  }
+
+  .firstimage {
+    margin-left: 1rem;
+    margin-top: -5rem;
+  }
+
+  .quality {
+    margin-top: -10rem;
+    margin-left: -4rem;
+  }
+
+  .quality-img {
+    position: absolute;
+    width: 28rem;
+    margin-left: -13rem;
+    margin-top: -7rem;
+  }
+
+  .services,
+  .text-para,
+  .read-more {
+    margin-left: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    text-align: center;
+  }
+
+  .services,
+  .techsupport {
+    font-size: 3rem;
+    width: 25rem;
+  }
+
+  .text-para {
+    margin-top: -7rem;
+    width: 25rem;
+  }
+
+  .read-more {
+    position: relative;
+    margin-top: 18rem;
+    left: 7rem;
+  }
+
+  .techsupport {
+    margin-top: -3rem;
+    text-align: center;
+    margin-left: 3rem;
+  }
+
+  .support-info {
+    font-size: 3rem;
+  }
+
+  .techsupport .description {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .technical-support {
+    display: none;
+  }
+
+  .services-two {
+    margin-top: 6rem;
+    margin-left: 7rem;
+    display: grid;
+    text-align: center;
+  }
+
+  .service-description {
+    margin-top: 1rem;
+    text-align: center;
+    margin-left: -3rem;
+  }
+
+  .service-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .packages {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .customer-feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feedback-heading {
+    font-size: 1.5rem;
+    margin-left: -5rem;
+  }
+
+  .feedback-description {
+    margin-left: -5rem;
+    margin-top: 1rem;
+    width: 18rem;
+    text-align: center;
+  }
+
+  .feeback-cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1rem;
+  }
+
+  .query-code {
+    margin-top: -0.1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .query-heading {
+    width: 20rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+
+  .query-description {
+    text-align: center;
+  }
+
+  .register-button {
+    margin-left: 7rem;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .overview,
+  .social-media {
+    margin-left: 1.3rem;
+  }
+
+  .overview p {
+    margin-left: 1rem;
+  }
+
+  .footer-content .logo {
+    margin-left: 9rem;
+  }
+}
